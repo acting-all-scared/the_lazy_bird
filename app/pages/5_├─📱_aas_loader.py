@@ -8,6 +8,9 @@ from utils.app_config import AppConfig
 config = AppConfig()
 doc = DocLoader('enne')
 
-st.title('Acting All Scared')
+st.title('Acting All Scared😎')
 st.write(doc.get_doc('hello.md'))
 st.write(config.open_ai_key)
+
+
+st.write(doc.get_doc('my_first_doc.md'))
